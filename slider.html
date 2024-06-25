@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<style>
+    .sample-slider{
+        width:70%;
+    }
+    .sample-slider img{
+        width: 100%;
+    }
+    .sample-slider .swiper-wrapper{
+        transition-timing-function: linear;
+    }
+</style>
+
+
+<div class="swiper sample-slider">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="./images/new/33.png"></div>
+        <div class="swiper-slide"><img src="./images/new/34.png"></div>
+        <div class="swiper-slide"><img src="./images/new/35.png"></div>
+        <div class="swiper-slide"><img src="./images/new/36.png"></div>
+    </div>
+</div>
+
+
+<script>
+    const swiper = new Swiper('.sample-slider', {
+        loop: true,
+        speed: 2000,
+        slidesPerView: 2,      
+        autoplay: {
+            delay: 0,
+            pauseOnMouseEnter: true,        // stop autoplay when hovering
+            disableOnInteraction: false,    // restart autoplay when hover is removed
+            reverseDirection: true,         // reverse the autoplay direction
+        },
+    })
+</script>

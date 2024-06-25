@@ -1,0 +1,75 @@
+
+.d-carousel ul li {
+	width: 1200px;
+	background: none;
+	padding-left: 0px;
+	margin: 0 auto;
+	height: 290px;
+}
+
+.d-carousel .jcarousel-container {
+	display: block;
+	overflow: hidden;
+}
+
+.d-carousel .jcarousel-item {
+	width: 1200px;
+}
+
+.d-carousel .jcarousel-container-horizontal {
+	width: 1156px;
+    padding: 0px 50px;
+}
+.carousel_dop .jcarousel-container-horizontal{
+	padding: 0px 50px;
+    width: 1156px;
+	}
+.d-carousel .jcarousel-item-horizontal {
+	
+}
+
+.d-carousel .jcarousel-next-horizontal {
+	position: absolute;
+	top: 50%;
+    margin-top: -32px;
+    right: 0;
+    margin-right: 0px;
+    width: 30px;
+    height: 65px;
+    cursor: pointer;
+    background: url(../images/arows.png) no-repeat -33px 0px;
+}
+.carousel_dop .jcarousel-next-horizontal {
+	position: absolute;
+	top: 50%;
+    margin-top: -32px;
+    right: 0;
+    margin-right: 0px;
+    width: 25px;
+    height: 59px;
+    cursor: pointer;
+    background: url(../images/arows.png) no-repeat -33px 0px;
+}
+.d-carousel .jcarousel-direction-rtl .jcarousel-next-horizontal {
+	left: 5px;
+	right: auto;
+	
+}
+
+.d-carousel .jcarousel-prev-horizontal {
+	position: absolute;
+	top: 50%;
+	margin-top: -32px;
+    left: 0;
+    margin-left: 0px;
+	width: 30px;
+	height: 65px;
+	cursor: pointer;
+	background:url(../images/arows.png) no-repeat 0px 0px;
+}
+
+.d-carousel .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+	left: auto;
+	right: 5px;
+	
+}

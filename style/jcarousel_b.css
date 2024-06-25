@@ -1,0 +1,39 @@
+.b-carousel {
+	width: 1080px;
+	margin: 0 auto;
+}
+@media screen and (max-width: 1266px) {
+	.b-carousel{
+		width: unset;
+	}
+}
+.banner_item {
+	display: block;
+	width: 250px;
+	height: 170px;
+}
+
+.b-carousel ul li {
+	/*width: 1060px;
+	height: 170px;*/
+	background: none;
+}
+
+.b-carousel .jcarousel-container {
+	display: block;
+	overflow: hidden;
+}
+
+.b-carousel .jcarousel-item {
+	width: 250px;
+	height: 170px;
+}
+
+.b-carousel .jcarousel-container-horizontal {
+	width: 1080px;
+	height: 170px;
+}
+.b-carousel .jcarousel-item-horizontal {
+	width: 250px;
+    padding: 0px 10px;
+}

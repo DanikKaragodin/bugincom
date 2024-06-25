@@ -1,0 +1,183 @@
+html ,body {width: 100%; color: #003655; font: 16px/30px Arial, Tahoma, Verdana; cursor: default; background: #ffffff;}
+
+html, body, div, applet, object, iframe, blockquote, pre, abbr, acronym, address, big, select, input, textarea, p,
+cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dd, dl, dt, fieldset, form, label, legend, caption {margin:0; padding:0; border:0; text-align:left;}
+a img, :link img, :visited img {border:0;}
+
+table {border-collapse: collapse; border-spacing: 0;}
+td {vertical-align: top; font: 16px/30px Arial, Tahoma, Verdana;}
+a {cursor: pointer; color: #00bde5; cursor: default; text-decoration: underline;}
+a:hover {text-decoration: none;cursor: pointer;}
+.clear {clear: both;}
+em {font-style: italic;}
+b {}
+hr {
+	height: 10px;
+	color: #fff;
+	border-width: 0px;
+	border-color: #fff;
+	margin: 30px 0 30px 0;
+}
+hr:before {
+	content: '';
+	width: 763px;
+	height: 10px;
+	display: block;
+	background: url(../images/new/37.png) no-repeat top center;
+	margin: 0 auto;
+}
+
+/* font-family: "GothamProRegular"; */
+@font-face {
+font-family: "GothamProRegular";
+src: url("../fonts/GothamProRegular/GothamProRegular.eot");
+src: url("../fonts/GothamProRegular/GothamProRegular.eot@")format("embedded-opentype"),
+url("../fonts/GothamProRegular/GothamProRegular.woff") format("woff"),
+url("../fonts/GothamProRegular/GothamProRegular.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+/* font-family: "GothamProBold"; */
+@font-face {
+font-family: "GothamProBold";
+src: url("../fonts/GothamProBold/GothamProBold.eot");
+src: url("../fonts/GothamProBold/GothamProBold.eot@")format("embedded-opentype"),
+url("../fonts/GothamProBold/GothamProBold.woff") format("woff"),
+url("../fonts/GothamProBold/GothamProBold.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+/* font-family: "GothamProBlack"; */
+@font-face {
+font-family: "GothamProBlack";
+src: url("../fonts/GothamProBlack/GothamProBlack.eot");
+src: url("../fonts/GothamProBlack/GothamProBlack.eot@")format("embedded-opentype"),
+url("../fonts/GothamProBlack/GothamProBlack.woff") format("woff"),
+url("../fonts/GothamProBlack/GothamProBlack.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+/* font-family: "GothamProItalic"; */
+@font-face {
+font-family: "GothamProItalic";
+src: url("../fonts/GothamProItalic/GothamProItalic.eot");
+src: url("../fonts/GothamProItalic/GothamProItalic.eot@")format("embedded-opentype"),
+url("../fonts/GothamProItalic/GothamProItalic.woff") format("woff"),
+url("../fonts/GothamProItalic/GothamProItalic.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+/* font-family: "GothamProMedium"; */
+@font-face {
+font-family: "GothamProMedium";
+src: url("../fonts/GothamProMedium/GothamProMedium.eot");
+src: url("../fonts/GothamProMedium/GothamProMedium.eot@")format("embedded-opentype"),
+url("../fonts/GothamProMedium/GothamProMedium.woff") format("woff"),
+url("../fonts/GothamProMedium/GothamProMedium.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+/* font-family: "GothamProLight"; */
+@font-face {
+font-family: "GothamProLight";
+src: url("../fonts/GothamProLight/GothamProLight.eot");
+src: url("../fonts/GothamProLight/GothamProLight.eot@")format("embedded-opentype"),
+url("../fonts/GothamProLight/GothamProLight.woff") format("woff"),
+url("../fonts/GothamProLight/GothamProLight.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+/* font-family: "GothamProMediumItalic"; */
+@font-face {
+font-family: "GothamProMediumItalic";
+src: url("../fonts/GothamProMediumItalic/GothamProMediumItalic.eot");
+src: url("../fonts/GothamProMediumItalic/GothamProMediumItalic.eot@")format("embedded-opentype"),
+url("../fonts/GothamProMediumItalic/GothamProMediumItalic.woff") format("woff"),
+url("../fonts/GothamProMediumItalic/GothamProMediumItalic.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+/* font-family: "GothamProLightItalic"; */
+@font-face {
+font-family: "GothamProLightItalic";
+src: url("../fonts/GothamProLightItalic/GothamProLightItalic.eot");
+src: url("../fonts/GothamProLightItalic/GothamProLightItalic.eot@")format("embedded-opentype"),
+url("../fonts/GothamProLightItalic/GothamProLightItalic.woff") format("woff"),
+url("../fonts/GothamProLightItalic/GothamProLightItalic.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+/* font-family: "GothamProBoldItalic"; */
+@font-face {
+font-family: "GothamProBoldItalic";
+src: url("../fonts/GothamProBoldItalic/GothamProBoldItalic.eot");
+src: url("../fonts/GothamProBoldItalic/GothamProBoldItalic.eot@")format("embedded-opentype"),
+url("../fonts/GothamProBoldItalic/GothamProBoldItalic.woff") format("woff"),
+url("../fonts/GothamProBoldItalic/GothamProBoldItalic.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+/* font-family: "GothamProBlackItalic"; */
+@font-face {
+font-family: "GothamProBlackItalic";
+src: url("../fonts/GothamProBlackItalic/GothamProBlackItalic.eot");
+src: url("../fonts/GothamProBlackItalic/GothamProBlackItalic.eot@")format("embedded-opentype"),
+url("../fonts/GothamProBlackItalic/GothamProBlackItalic.woff") format("woff"),
+url("../fonts/GothamProBlackItalic/GothamProBlackItalic.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+
+/* styles of article body */
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul li {
+	/* background: url(../images/new/5.png) no-repeat 0px 8px; */
+    /* padding: 0 0 0 24px; */
+}
+
+h1 {
+	font: 24px Arial;
+}
+
+h2 {
+	font-size:19px !important;
+	text-transform:uppercase;
+	font-family: "GothamProBold" !important;
+	line-height: 27px;
+	padding: 0px;
+	margin: 0px;
+}
+
+h3 {
+	font: 18px Arial;
+}
+
+h4 {
+	font-size: 14px;
+}
+
+h5 {
+	font-size: 12px;
+	padding-bottom: 5px;
+}
+
+h6 {
+	font-size: 10px;
+}
+.download{
+	margin:69px auto;
+	display:block;
+	font-size:15px;
+	color:#fff;
+	text-transform:uppercase;
+	text-align:center;
+	background:url(../images/new/38.png) no-repeat top center;
+	width:439px;
+	line-height:42px;
+	text-decoration:none;
+}
