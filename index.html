@@ -125,6 +125,7 @@
 									</div>
 									<div class="under_contacts">
 										<ul>
+											<li class=""><a href="/index.html">Главное</a></li>
 											<li class=""><a href="about/index.html">О компании</a></li>
 											<li class=""><a href="projects/index.html">Проекты</a></li>
 											<li class=""><a href="https://2fix.by/">Производство</a></li>
@@ -430,10 +431,10 @@
 				</div>
 				<hr class="ks_line">
 				<div class="ks_right">
-					<div class="ks_title"><a href="production/index.html" target="_blank">Собственное
+					<div class="ks_title"><a href="https://2fix.by/" target="_blank">Собственное
 							производство<br />изделий из проволоки</a></div>
 					<div class="ks_text"></div>
-					<a class="all_project_more" href="production/index.html">Подробнее</a>
+					<a class="all_project_more" href="https://2fix.by/">Подробнее</a>
 				</div>
 				<div class="clear"></div>
 			</div>
@@ -472,9 +473,29 @@
 
 		<div class="map">
 			<!-- Этот блок кода нужно вставить в ту часть страницы, где вы хотите разместить карту (начало) -->
-			<div id="ymaps-map-id_5513815" style="width: auto; height: 445px;"></div>
+			<div id="ymaps-map-id_5513815" style="width: auto; height: 80vh; max-height: 445px;"></div>
 			<script
-				type="text/javascript">function fid_5513815(ymaps) { var objects = []; var events = {}; try { } catch (e) { alert(e); }; var map; objects["map1"] = map = new ymaps.Map("ymaps-map-id_5513815", { center: [52.096567956364225, 23.742417626983624], zoom: 16, type: "yandex#map", behaviors: ['drag', 'dblClickZoom'] }); map.controls.add("typeSelector", { "top": 4.5, "right": 1.5 }).add("zoomControl", { "top": 172.5, "left": 1.5 }); map.geoObjects.add(objects['Point5'] = new ymaps.Placemark([52.09650187794699, 23.74253564418028], { "iconContent": "", "xname": "Point5", "metaType": "" }, { "preset": "twirl#darkblueIcon", "visible": true, "iconImageHref": "http://bugincom.by/images/pie.png", "iconImageSize": [254, 99], "iconImageOffset": [-125, -85], "iconContentLayout": "twirl#geoObjectIconContent", "balloonContentBodyLayout": "twirl#geoObjectBalloonBodyContent", "hintContentLayout": "twirl#geoObjectHintContent" })); };</script>
+				type="text/javascript">function fid_5513815(ymaps) { 
+					var objects = [];
+					var events = {};
+					try { } catch (e) { alert(e); };
+					var map;
+					objects["map1"] = map = new ymaps.Map("ymaps-map-id_5513815",{ center: [52.096567956364225, 23.742417626983624], zoom: 16, type: "yandex#map", behaviors: ['drag', 'dblClickZoom'] });
+					map.controls.add("typeSelector", { "top": 4.5, "right": 1.5 }).add("zoomControl", { "top": 172.5, "left": 1.5 });
+					map.geoObjects.add(objects['Point5'] = new ymaps.Placemark([52.09650187794699, 23.74253564418028], { "iconContent": "", "xname": "Point5", "metaType": "" }, { "preset": "twirl#darkblueIcon", "visible": true, "iconImageHref": "images/pie.png", "iconImageSize": [254, 99], "iconImageOffset": [-125, -85], "iconContentLayout": "twirl#geoObjectIconContent", "balloonContentBodyLayout": "twirl#geoObjectBalloonBodyContent", "hintContentLayout": "twirl#geoObjectHintContent" }));
+					// map.behaviors.disable('scroll');
+					// map.behaviors.disable('multiTouch');
+					map.container.fitToViewport();
+					// map.ontouchstart = function(event) { // Проверьте, в каком направлении пользователь свайпнул
+					//  if (event.touches[0].clientY > event.touches[0].pageY) { // Пользователь свайпнул вниз
+					// 	 window.scrollBy(0, 100); // прокрутите страницу вниз на 100 пикселей 
+					// 	 } else { // Пользователь свайпнул вверх
+					// 		 window.scrollBy(0, -100); // прокрутите страницу вверх на 100 пикселей 
+					// 		 }};
+					// map.behaviors.disable('drag'); 
+					};
+					
+			</script>
 			<script type="text/javascript"
 				src="http://api-maps.yandex.ru/2.0-stable/?load=package.full&lang=ru-RU&onload=fid_5513815"></script>
 			<!-- Этот блок кода нужно вставить в ту часть страницы, где вы хотите разместить карту (конец) -->

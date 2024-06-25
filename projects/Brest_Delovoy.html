@@ -8,6 +8,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="Content-Style-Type" content="text/css" />
 
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 	<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, post-check=0, pre-check=0" />
 	<meta http-equiv="Pragma" content="no-cache" />
 	<meta name="Distribution" content="Global" />
@@ -122,6 +123,7 @@
 									</div>
 									<div class="under_contacts">
 										<ul>
+											<li class=""><a href="/index.html">Главное</a></li>
 											<li class=""><a href="../about/index.html">О компании</a></li>
 											<li class=""><a href="../projects/index.html">Проекты</a></li>
 											<li class=""><a href="https://2fix.by/">Производство</a></li>
@@ -481,7 +483,7 @@
 								<div class="map_project">
 									<iframe
 										src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23318.217440366876!2d23.74069200804686!3d52.097464175401875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47210ea08c8bba99%3A0xbffff4df08b3aecd!2z0JHQuNC30L3QtdGBLdGG0LXQvdGC0YAgwqvQkdGA0LXRgdGCINCU0LXQu9C-0LLQvtC5wrssINGD0LsuINCc0L7RgdC60L7QstGB0LrQsNGPIDIwOCwg0JHRgNC10YHRgiwg0JHQtdC70LDRgNGD0YHRjA!5e0!3m2!1sru!2sua!4v1450619186142"
-										width="775" height="600" frameborder="0" style="border:0"
+										width="775"   max-height="600" frameborder="0" style="border:0"
 										allowfullscreen></iframe>
 								</div>
 
@@ -528,9 +530,9 @@
 
 		<div class="map">
 			<!-- Этот блок кода нужно вставить в ту часть страницы, где вы хотите разместить карту (начало) -->
-			<div id="ymaps-map-id_5513815" style="width: auto; height: 445px;"></div>
+			<div id="ymaps-map-id_5513815" style="width: auto; height: 80vh; max-height: 445px;"></div>
 			<script
-				type="text/javascript">function fid_5513815(ymaps) { var objects = []; var events = {}; try { } catch (e) { alert(e); }; var map; objects["map1"] = map = new ymaps.Map("ymaps-map-id_5513815", { center: [52.096567956364225, 23.742417626983624], zoom: 16, type: "yandex#map", behaviors: ['drag', 'dblClickZoom'] }); map.controls.add("typeSelector", { "top": 4.5, "right": 1.5 }).add("zoomControl", { "top": 172.5, "left": 1.5 }); map.geoObjects.add(objects['Point5'] = new ymaps.Placemark([52.09650187794699, 23.74253564418028], { "iconContent": "", "xname": "Point5", "metaType": "" }, { "preset": "twirl#darkblueIcon", "visible": true, "iconImageHref": "http://bugincom.by/images/pie.png", "iconImageSize": [254, 99], "iconImageOffset": [-125, -85], "iconContentLayout": "twirl#geoObjectIconContent", "balloonContentBodyLayout": "twirl#geoObjectBalloonBodyContent", "hintContentLayout": "twirl#geoObjectHintContent" })); };</script>
+				type="text/javascript">function fid_5513815(ymaps) { var objects = []; var events = {}; try { } catch (e) { alert(e); }; var map; objects["map1"] = map = new ymaps.Map("ymaps-map-id_5513815", { center: [52.096567956364225, 23.742417626983624], zoom: 16, type: "yandex#map", behaviors: ['drag', 'dblClickZoom'] }); map.controls.add("typeSelector", { "top": 4.5, "right": 1.5 }).add("zoomControl", { "top": 172.5, "left": 1.5 }); map.geoObjects.add(objects['Point5'] = new ymaps.Placemark([52.09650187794699, 23.74253564418028], { "iconContent": "", "xname": "Point5", "metaType": "" }, { "preset": "twirl#darkblueIcon", "visible": true, "iconImageHref": "../images/pie.png", "iconImageSize": [254, 99], "iconImageOffset": [-125, -85], "iconContentLayout": "twirl#geoObjectIconContent", "balloonContentBodyLayout": "twirl#geoObjectBalloonBodyContent", "hintContentLayout": "twirl#geoObjectHintContent" })); };</script>
 			<script type="text/javascript"
 				src="http://api-maps.yandex.ru/2.0-stable/?load=package.full&lang=ru-RU&onload=fid_5513815"></script>
 			<!-- Этот блок кода нужно вставить в ту часть страницы, где вы хотите разместить карту (конец) -->

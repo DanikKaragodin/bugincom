@@ -39,6 +39,6 @@ advertSwiper.on('resize', function () {
     advertSwiper.updateSlides(); // Update the swiper instance on resize
 
 });
-window.onresize(function(){
+window.onresize = () =>function(){
     AOS.refresh();
-})
+}

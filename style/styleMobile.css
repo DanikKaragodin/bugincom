@@ -25,8 +25,6 @@
     .top_header div{
         /* display: block; */
     }
-    .prev{left: 60%;}
-    .next{right: 60%;}
     .under_contacts{margin-top: 30px;}
     .top_contacts{display: flex; justify-content: center;}
     .under_contacts ul li{
@@ -207,9 +205,12 @@
 }
 
 @media screen and (max-width: 849px){
-    /* ОБЩИЕ СВОЙСТВА */
+    /* ОБЩИЕ СВОЙСТВА + СВОЙСТВА ГЛ.СТРАНИЦЫ */
     a.logo_static img, a.logo_fixed img{
         display: none;
+    }
+    .headerSlider, .headerSliderContent, .headerSliderContent .item{
+      min-height: unset;
     }
     .header{
         margin-bottom: -280px;
@@ -236,6 +237,12 @@
         float: unset;
         margin-right: 0;
     }
+/* 
+    .prev{left: 55%;}
+    .next{right: 55%;} */
+
+    .prev{left:415px;}
+    .next{right:415px;}
     /* ПРОЕКТЫ */ 
     .title_page span{
       display: block;}
@@ -301,6 +308,7 @@
     }
     .map_project iframe{
       width: 90vw;
+      height: 50vh;
     }
     /* О КОМПАНИИ */
     
@@ -435,6 +443,9 @@ div.header{
 
 @media screen and (max-width: 610px) {
     /* ОБЩИЕ СВОЙСТВА */
+    .prev{left:385px;}
+    .next{right:385px;}
+
   .title_slider a:nth-child(1){
     font-size: 30px;
   }

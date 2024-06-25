@@ -82,6 +82,7 @@
     width: 798px;
     height: 353px;
     margin-left: -399px;
+	border-radius: 7px;
 	}
 	.item > img{
 		position:relative;
