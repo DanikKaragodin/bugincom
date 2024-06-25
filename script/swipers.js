@@ -31,6 +31,7 @@ const advertSwiper = new Swiper('.advert-slider', {
     slidesPerView: getSlidesPerView(1),
     autoplay: {
         delay: 0,
+        disableOnInteraction: false, // restart autoplay when hover is removed
         reverseDirection: false, // reverse the autoplay direction
     }
 });
