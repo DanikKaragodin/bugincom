@@ -138,6 +138,7 @@
       #tabs_mobile{
         display: grid;
         justify-content: center;
+        margin-bottom: 30px
       }
       .tabs_box {
         padding-bottom: 3px;
