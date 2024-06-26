@@ -26,7 +26,10 @@
         /* display: block; */
     }
     .under_contacts{margin-top: 30px;}
-    .top_contacts{display: flex; justify-content: center;}
+    .top_contacts{display: flex;
+       justify-content: center; 
+       margin-top: 10px;
+      }
     .under_contacts ul li{
         margin: 0px 15px 0px 15px;
     }
@@ -206,7 +209,7 @@
 
 @media screen and (max-width: 849px){
     /* ОБЩИЕ СВОЙСТВА + СВОЙСТВА ГЛ.СТРАНИЦЫ */
-    a.logo_static img, a.logo_fixed img{
+    /* a.logo_static img, a.logo_fixed img{
         display: none;
     }
     .headerSlider, .headerSliderContent, .headerSliderContent .item{
@@ -236,23 +239,20 @@
     .phone_text{
         float: unset;
         margin-right: 0;
-    }
+    } */
 /* 
     .prev{left: 55%;}
     .next{right: 55%;} */
 
     .prev{left:415px;}
     .next{right:415px;}
-    /* ПРОЕКТЫ */ 
+    /* ПРОЕКТЫ 
     .title_page span{
-      display: block;}
-
-    /* СКЛАДСКИЕ ПОМЕЩЕНИЯ */
-   .title_page span{
-    line-height: 50px;
-    padding-top: 150px;
-    font-size: 3em;
-   }
+      display: block;
+      line-height: 50px;
+      padding-top: 150px;
+      font-size: 3em;
+    } */
     /* КОНТАКТЫ */
     .title_contacts{
       padding-left:7px;
@@ -326,9 +326,48 @@
 }
 
 /* ЗДЕСЬ МЕНЮ НАХОДИТСЯ */
-/* ИЗМЕНИЛ С 600 НА 849 ↓ */
-@media screen and (max-width: 849px){
+/* ИЗМЕНИЛ С 849 НА 985 ↓ */
+@media screen and (max-width: 985px){
   /* ОБЩИЕ СВОЙСТВА */
+  a.logo_static img, a.logo_fixed img{
+    display: none;
+}
+.headerSlider, .headerSliderContent, .headerSliderContent .item{
+  min-height: unset;
+}
+.header{
+    margin-bottom: -280px;
+    padding-bottom: 2px;
+}
+.top_contacts{
+    flex-direction: column;
+    margin-top: unset;
+    align-items: baseline;
+}
+.under_contacts{
+    margin-top: 10px;
+}
+.under_contacts ul{
+    display: flex;
+    flex-direction: column;
+    line-height: 2em;
+    text-align: center;
+}
+.phone{
+    height: 55px;
+}
+.phone_text{
+    float: unset;
+    margin-right: 0;
+}
+ /* ПРОЕКТЫ */ 
+ .title_page span{
+  display: block;
+  line-height: 50px;
+  padding-top: 150px;
+  font-size: 3em;
+}
+
 /* МЕНЮ */
 .header.active{
   height: fit-content;

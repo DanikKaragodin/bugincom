@@ -274,7 +274,7 @@ border-radius: 0px 0px 100px 100px ;
 } */
 .top_header{
 	display: grid; 
-	grid-template-columns: 1fr 2.5fr; 
+	grid-template-columns: 0.6fr 2.5fr; 
 	gap: 0px 0px; 
 }
 .header a.logo_static{
@@ -282,6 +282,10 @@ border-radius: 0px 0px 100px 100px ;
 }
 .header a.logo_fixed{
 	display: none;
+}
+.logo_static img,.logo_fixed img{
+	/* height: -1px; */
+	width: 155px;
 }
 .header.active  a.logo_static{
 	display: none;
@@ -303,7 +307,7 @@ width: fit-content;
 }
 .logo a{
 display:inline-block;
-margin-left: 52px;
+/* margin-left: 52px; */
 margin-top: 25px;
 }
 .logo a img{
@@ -1474,9 +1478,9 @@ text-align:center;
 }
 
 .about_company_img{
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,124,199,1) 100%);
+/* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,124,199,1) 100%); */
 border-radius: 13px;
-padding: 6px;
+/* padding: 6px; */
 box-sizing: border-box;
 -webkit-box-shadow: 7px 5px 12px 0px rgba(34, 60, 80, 0.25);
 -moz-box-shadow: 7px 5px 12px 0px rgba(34, 60, 80, 0.25);
