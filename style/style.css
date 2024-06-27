@@ -298,6 +298,12 @@ border-radius: 0px 0px 100px 100px ;
 .headerSlider{min-height: 900px;}
 .headerSliderContent{min-height: 900px;} 
 .headerSliderContent .item {min-height: 900px;}
+
+
+.mobile_logo{
+	display: none;}
+
+
 .logo{
 /* float:left;
 width:21%; */
@@ -1025,7 +1031,9 @@ overflow:hidden;
 padding-top: 50px;
 padding-bottom: 28px;
 }
-.contacts_info{ width: 50%;}
+.contacts_info{ width: 50%;
+	padding: 0px 20px;
+}
 .contacts_form{ width: 50%;}
 
 .left_contacts{
@@ -1094,6 +1102,7 @@ text-decoration:underline;
 }
 .form{
 margin-top: -8px;	
+width: fit-content;
 }
 .form p{
 font-size:16px;
@@ -1113,7 +1122,8 @@ border-radius: 7px;
 }
 .form textarea{
 display:block;
-padding:15px;
+/* padding:15px; */
+padding: 15px 15px 0px 0px;
 height:159px;
 border:1px solid #c3cfd3;
 width:540px;
@@ -1165,7 +1175,8 @@ background:url(../images/new/9.png) no-repeat 595px 15px #fff;
 .sorting_first div.fancy-select div.trigger {
 background: url(../images/new/9.png) no-repeat 595px 15px #fff;
 border-radius: 7px;
-width: 609px;
+/* width: 609px; */
+width: 626px;
 padding-left: 15px;
 line-height: 39px;
 display:inline-block;
@@ -1626,7 +1637,8 @@ margin:0 auto;
 /* background-color:#e3eef2; */
 width:359px;
 margin-right:33px;
-display:inline-block;
+/* display:inline-block; */
+display: inline-flex;
 vertical-align:middle;
 border-radius: 10px;
 box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.3);
@@ -1900,6 +1912,9 @@ display:none;
 .map_project{
 padding:5px;
 background-color:#e3eef2;
+}
+.map_project iframe {
+    height: 60vh;
 }
 .carousel2{
 /*margin-bottom:-70px;*/
