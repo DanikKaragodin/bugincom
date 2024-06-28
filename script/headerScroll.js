@@ -4,9 +4,14 @@ $(document).ready(function () {
     var $menu2 = $(".header");
 
     $(window).resize(function () {
-        if($(window).width() <= 968){ 
-            $menu2.removeClass("active").addClass("default");
-            return; }//ДОБАВИЛ ДЛЯ МЕНЮ *изменил 849 на 968
+        if($(window).width() <= 968){ //ДОБАВИЛ ДЛЯ МЕНЮ *изменил 849 на 968
+            if($menu2.width >='100%') return;
+            $menu2.removeClass("active").addClass("default").animate({
+            marginLeft:0,
+            marginRight:0,
+            position: 'fixed',
+            width: '100%'});
+            return; }
         if ($(this).scrollTop() > 80) {
             var page_w = ($(window).width() - 1266) / 2;
             $('.header_height').show();
@@ -35,7 +40,14 @@ $(document).ready(function () {
     });
 
     $(window).scroll(function () {
-        if($(window).width() <= 968) return; //ДОБАВИЛ ДЛЯ МЕНЮ *изменил 849 на 968
+        if($(window).width() <= 968){ //ДОБАВИЛ ДЛЯ МЕНЮ *изменил 849 на 968
+            if($menu2.width >='100%') return;
+            $menu2.removeClass("active").addClass("default").animate({
+            marginLeft:0,
+            marginRight:0,
+            position: 'fixed',
+            width:'100%'});
+            return; }
         if ($(this).scrollTop() > 80 && $menu2.hasClass("default")) {
             var page_w = ($(window).width() - 1266) / 2;
             $('.header_height').show();
@@ -64,7 +76,14 @@ $(document).ready(function () {
 
     });
 
-    if($(window).width() <= 968) return; //ДОБАВИЛ ДЛЯ МЕНЮ *изменил 849 на 968
+    if($(window).width() <= 968){ //ДОБАВИЛ ДЛЯ МЕНЮ *изменил 849 на 968
+        if($menu2.width >='100%') return;
+        $menu2.removeClass("active").addClass("default").animate({
+        marginLeft:0,
+        marginRight:0,
+        position: 'fixed',
+        width: '100%'});
+        return; }
     if ($(this).scrollTop() > 80 && $menu2.hasClass("default")) {
         var page_w = ($(window).width() - 1266) / 2;
         $('.header_height').show();
