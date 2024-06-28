@@ -564,8 +564,8 @@ div.header{
   .foto_big_img{
     width: 345px;
   }
-  span.project_long_text{
-  font-size: 18px;
+  span.project_long_text,.projects_one a.project_long_text{
+  font-size: 21px;
   }
   /* .fotos_small{
     display: flex;
