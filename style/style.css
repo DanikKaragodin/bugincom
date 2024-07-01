@@ -1686,6 +1686,7 @@ text-align: center;
 .box{
 /* background:url(../images/new/19.png) top left #fff repeat-x; */
 /*margin-bottom: 70px;*/
+overflow-x: hidden;
 }
 .photo_project{
 width:370px;
@@ -1932,6 +1933,7 @@ background-color:#e3eef2;
 }
 .map_project iframe {
     height: 60vh;
+	width: 100%;
 }
 .carousel2{
 /*margin-bottom:-70px;*/

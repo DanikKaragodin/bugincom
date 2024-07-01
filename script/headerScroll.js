@@ -5,7 +5,7 @@ $(document).ready(function () {
 
     $(window).resize(function () {
         if($(window).width() <= 968){ //ДОБАВИЛ ДЛЯ МЕНЮ *изменил 849 на 968
-            if($menu2.width >='100%') return;
+            if($menu2.width >='100%' && !$menu2.hasClass("active")) return;
             $menu2.removeClass("active").addClass("default").animate({
             marginLeft:0,
             marginRight:0,
@@ -41,7 +41,7 @@ $(document).ready(function () {
 
     $(window).scroll(function () {
         if($(window).width() <= 968){ //ДОБАВИЛ ДЛЯ МЕНЮ *изменил 849 на 968
-            if($menu2.width >='100%') return;
+            if($menu2.width >='100%'  && !$menu2.hasClass("active")) return;
             $menu2.removeClass("active").addClass("default").animate({
             marginLeft:0,
             marginRight:0,
@@ -77,7 +77,7 @@ $(document).ready(function () {
     });
 
     if($(window).width() <= 968){ //ДОБАВИЛ ДЛЯ МЕНЮ *изменил 849 на 968
-        if($menu2.width >='100%') return;
+        if($menu2.width >='100%'  && !$menu2.hasClass("active")) return;
         $menu2.removeClass("active").addClass("default").animate({
         marginLeft:0,
         marginRight:0,

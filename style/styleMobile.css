@@ -178,6 +178,9 @@
         margin-right: 5px;
         margin-left: 5px;
         width: fit-content;
+        flex-basis: 20%;
+        justify-content: center;
+        display: flex;
       }
       .wrap_address{
         display: flex;
