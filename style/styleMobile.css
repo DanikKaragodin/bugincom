@@ -193,7 +193,7 @@
         padding: 5px;
       }
       .address_one span{
-        width: 257px;
+        width: 270px;
         float:left;
         padding-left: 5px;
       }
@@ -504,6 +504,15 @@ div.header{
   }
 /* МЕНЮ */
 }
+@media screen and (max-height:450px) {
+  .menu-container .menus li a{
+    padding: 1px 10px;
+  }
+  .under_contacts{
+    margin-top: 0px;
+  }
+}
+/* ЗДЕСЬ МЕНЮ  ЗАКАНЧИВАЕТСЯ*/
 
 @media screen and (max-width: 610px) {
     /* ОБЩИЕ СВОЙСТВА */
