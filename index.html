@@ -36,9 +36,9 @@
 	<link href="style/jcarousel.css" media="all" rel="stylesheet" type="text/css" />
 	<link href="style/jquery.lightbox-0.5.css" media="all" rel="stylesheet" type="text/css" />
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-	
 
-	
+
+
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
@@ -55,7 +55,7 @@
 
 	<link rel="stylesheet" href="script/aos-master/dist/aos.css" />
 	<script src="script/aos-master/dist/aos.js"></script>
-	
+
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
 	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 	<script src="script/headerScroll.js"></script>
@@ -99,7 +99,7 @@
 				<a class="mobile_logo_fixed" href="index.html"><img src="images/logov.png" alt="" /></a>
 			</div>
 			<div class="menu-container">
-				
+
 				<label for="menuButton">
 					<input type="checkbox" id="menuButton" />
 					<div class="navicon">
@@ -119,8 +119,11 @@
 									<div class="top_contacts">
 										<div class="phone_text">Аренда:</div>
 										<div class="phone">
-											<div class="phone_in">+ 375 (44) <b>585 77 77</b> </br> + 375 (29) <b>805 77
-													77</b></div>
+											<div class="phone_in">
+												<a href="tel:+375445857777">+ 375 (44) <b>585 77 77</b> </a>
+											</br> 
+												<a href="tel:+375298057777">+ 375 (29) <b>805 77 77</b></a>
+											</div>
 											<div class="clear"></div>
 										</div>
 										<div class="mail">
@@ -129,7 +132,7 @@
 									</div>
 									<div class="under_contacts">
 										<ul>
-											<li class=""><a href="index.html">Главное</a></li>
+											<li class=""><a href="index.html">Главная</a></li>
 											<li class=""><a href="about/index.html">О компании</a></li>
 											<li class=""><a href="projects/index.html">Проекты</a></li>
 											<li class=""><a href="https://2fix.by/">Производство</a></li>
@@ -359,7 +362,8 @@
 						<li class="swiper-slide">
 							<div class="project">
 								<a href="projects/Brest_Delovoy.html">
-									<img src="tmp/generate_pic/gallery/superNew/BrestDelovoy_main_1!339!209.jpg" alt="" />
+									<img src="tmp/generate_pic/gallery/superNew/BrestDelovoy_main_1!339!209.jpg"
+										alt="" />
 									«Брест Деловой»
 								</a>
 							</div>
@@ -367,7 +371,7 @@
 						<li class="swiper-slide">
 							<div class="project">
 								<a href="projects/domus_city.html">
-									<img src="tmp/generate_pic/-.JPG!339!209!cut.jpg" alt="" />
+									<img src="tmp/generate_pic/gallery/superNew/Domus_City_1!339!209.jpg" alt="" />
 									«Domus City»
 								</a>
 							</div>
@@ -478,13 +482,12 @@
 		<div class="map">
 			<!-- Этот блок кода нужно вставить в ту часть страницы, где вы хотите разместить карту (начало) -->
 			<div id="ymaps-map-id_5513815" style="width: auto; height: 80vh; max-height: 445px;"></div>
-			<script
-				type="text/javascript">function fid_5513815(ymaps) { 
+			<script type="text/javascript">function fid_5513815(ymaps) {
 					var objects = [];
 					var events = {};
 					try { } catch (e) { alert(e); };
 					var map;
-					objects["map1"] = map = new ymaps.Map("ymaps-map-id_5513815",{ center: [52.096567956364225, 23.742417626983624], zoom: 16, type: "yandex#map", behaviors: ['drag', 'dblClickZoom'] });
+					objects["map1"] = map = new ymaps.Map("ymaps-map-id_5513815", { center: [52.096567956364225, 23.742417626983624], zoom: 16, type: "yandex#map", behaviors: ['drag', 'dblClickZoom'] });
 					map.controls.add("typeSelector", { "top": 4.5, "right": 1.5 }).add("zoomControl", { "top": 172.5, "left": 1.5 });
 					map.geoObjects.add(objects['Point5'] = new ymaps.Placemark([52.09650187794699, 23.74253564418028], { "iconContent": "", "xname": "Point5", "metaType": "" }, { "preset": "twirl#darkblueIcon", "visible": true, "iconImageHref": "images/pie.png", "iconImageSize": [254, 99], "iconImageOffset": [-125, -85], "iconContentLayout": "twirl#geoObjectIconContent", "balloonContentBodyLayout": "twirl#geoObjectBalloonBodyContent", "hintContentLayout": "twirl#geoObjectHintContent" }));
 					// map.behaviors.disable('scroll');
@@ -497,8 +500,8 @@
 					// 		 window.scrollBy(0, -100); // прокрутите страницу вверх на 100 пикселей 
 					// 		 }};
 					// map.behaviors.disable('drag'); 
-					};
-					
+				};
+
 			</script>
 			<script type="text/javascript"
 				src="http://api-maps.yandex.ru/2.0-stable/?load=package.full&lang=ru-RU&onload=fid_5513815"></script>
@@ -510,7 +513,7 @@
 				<div class="wrap_7">
 					<div class="one_7">
 						<div class="one_7_img" data-aos="flip-left">
-							<img src="images/14.png" alt="" />
+							<a href="https://yandex.by/maps/-/CDGAF8Oi"><img src="images/14.png" alt="" /></a>
 						</div>
 						<div class="one_7_text">
 							<span>г. Брест, ул. Московская, 208-9</span>
@@ -518,7 +521,7 @@
 					</div>
 					<div class="one_7">
 						<div class="one_7_img" data-aos="flip-left">
-							<img src="images/15.png" alt="" />
+							<a href="tel:+375162272877"><img src="images/15.png" alt="" /></a>
 						</div>
 						<div class="one_7_text">
 							<span>Тел.: + 375 (162) <p>27 28 77</p></span>
@@ -526,7 +529,7 @@
 					</div>
 					<div class="one_7">
 						<div class="one_7_img" data-aos="flip-right">
-							<img src="images/16.png" alt="" />
+							<a href="fax:+375.162.272899"><img src="images/16.png" alt="" /></a>
 						</div>
 						<div class="one_7_text">
 							<span>Факс: +375 (162) <p>27 28 99</p></span>
@@ -534,7 +537,7 @@
 					</div>
 					<div class="one_7">
 						<div class="one_7_img" data-aos="flip-right">
-							<img src="images/17.png" alt="" />
+							<a href="mailto:office@bugincom.by"><img src="images/17.png" alt="" /></a>
 						</div>
 						<div class="one_7_text">
 							<span>E-mail: <a href="mailto:office@bugincom.by">office@bugincom.by </a></span>

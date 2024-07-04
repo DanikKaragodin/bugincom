@@ -348,6 +348,14 @@ color: #00bde5;
 	height:26px;
 	display:inline-block;
 	padding-left: 25px;
+	
+}
+.phone_in a{
+	text-decoration: none;
+	transition: color 0.2s;
+}
+.phone_in a:hover{
+	color: orange;
 }
 .phone div{
 	font-family: "GothamProLight";
@@ -358,12 +366,14 @@ color: #00bde5;
 	float: left;
 	line-height: 26px;
 }
+
 .phone div b{
 	font-family: "GothamProBold";
 	display:inline-block;
 	line-height: 26px;
 	font-size:15px;
 }
+
 .mail{
 display: inline-block;
 margin-left: 28px;
@@ -385,9 +395,11 @@ margin-top: 5px;
 margin-left: 5px;
 color: #00bde5;
 text-decoration: none;
+transition: color 0.2s;
 }
 .mail a:hover{
-text-decoration:underline;
+/* text-decoration:underline; */
+color:orange
 }
 .under_contacts{
 margin-top: 55px;
